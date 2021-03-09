@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>ASAC</h1>
+        <ul class="hList">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <div class="form-div">
+        <form action="" id="student-form">
+            <div class="input">
+                <label for="studntEmail">Studnt Email</label>
+                <input type="text" name="studntEmail" id="studntEmail">
+            </div>
+            <div class="input">
+                <label for="studntPhoneNum">Studnt Phone Number</label>
+                <input type="text" name="studntPhoneNum" id="studntPhoneNum">
+            </div>
+            <div class="input">
+                <label for="tuitionDrop">Tuition</label>
+                <select name="tuitionDrop" id="tuitionDrop">
+                    <option value="100 JD">100 JD</option>
+                    <option value="500 JD">500 JD</option>
+                    <option value="1000 JD">1000 JD</option>
+                </select>
+            </div>
+            <div class="submit-btn">
+                <input type="submit" value="Add Studnt" id="submit-btn"></input>
+            </div>
+        </form>
+    </div>
+    <div class="form-table">
+        <table class="students-tbl" id="students-table">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Mobile</th>
+                    <th>Age</th>
+                    <th>Tuition</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+
+            </tbody>
+        </table>
+        <div class="total">
+            <span id="total-span"></span>
+        </div>
+    </div>
+</body>
+<script src="./js.js"></script>
+</html>

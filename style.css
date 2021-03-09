@@ -1,0 +1,78 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color: #eee;
+}
+
+body{
+    background-image: url("./img/BGImg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    background-color: rgba(96, 96, 96,0.6);
+    font-size: 25px;
+}
+
+h1{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.hList{
+    position: relative;
+    float: right;
+    width: 25%;
+    top: -45px;
+}
+
+.hList li{
+    display: inline;
+    padding: 3%;
+}
+
+.form-div{
+    float: left;
+}
+
+.form-div, .form-table{
+    width: 25%;
+    background-color: rgba(96, 96, 96,0.6);
+    position: relative;
+    padding: 1%;
+    margin: 5%;
+}
+
+.form-table{
+    width: 50%;
+    float: right;
+}
+
+.input{
+    padding: 3%;
+    position: relative;
+}
+
+.input input, .input select, .input select option{
+    color: black;
+}
+
+.submit-btn input{
+    width: 100%;
+    position: relative;
+    color: black;
+}
+
+.students-tbl{
+    width: 100%;
+}
+
+.students-tbl th, .students-tbl td{
+    border: 1px solid #eee;
+    padding: 10px;
+}
